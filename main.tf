@@ -18,7 +18,3 @@ resource "aws_volume_attachment" "ebs-attach" {
   instance_id = aws_instance.vm-user1.id
 }
 
-resource "aws_ebs_volume" "ebs-exten02" {
-  availability_zone = "ap-southeast-1a"
-  size              = 10
-}
