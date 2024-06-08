@@ -17,3 +17,4 @@ resource "aws_volume_attachment" "ebs-attach" {
   volume_id   = aws_ebs_volume.ebs-exten.id
   instance_id = aws_instance.vm-user1.id
 }
+
